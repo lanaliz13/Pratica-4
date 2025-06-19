@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <title>Lista Única de Participantes - Formulário</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+
+    <h2>Informe os nomes dos participantes (separados por vírgula)</h2>
+
+    <form method="post" action="processar_participantes.php">
+        <label for="participantes">Nomes:</label><br>
+        <input type="text" id="participantes" name="participantes" placeholder="Ex: Carlos,Ana,João,Maria" size="50"><br><br>
+
+        <input type="submit" value="Gerar Lista Única">
+    </form>
+
+</body>
+</html>

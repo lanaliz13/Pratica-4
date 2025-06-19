@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Preços dos Produtos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Cadastro de Produtos e Preços</h2>
+
+<form method="post" action="precos.php">
+  <label>Produto 1:</label>
+  <input type="text" name="produtos[]" required placeholder="Nome do produto">
+  <label>Preço 1:</label>
+  <input type="number" name="precos[]" step="0.01" min="0" required placeholder="R$ 0,00">
+
+  <label>Produto 2:</label>
+  <input type="text" name="produtos[]" required placeholder="Nome do produto">
+  <label>Preço 2:</label>
+  <input type="number" name="precos[]" step="0.01" min="0" required placeholder="R$ 0,00">
+
+  <label>Produto 3:</label>
+  <input type="text" name="produtos[]" required placeholder="Nome do produto">
+  <label>Preço 3:</label>
+  <input type="number" name="precos[]" step="0.01" min="0" required placeholder="R$ 0,00">
+
+  <label>Produto 4:</label>
+  <input type="text" name="produtos[]" required placeholder="Nome do produto">
+  <label>Preço 4:</label>
+  <input type="number" name="precos[]" step="0.01" min="0" required placeholder="R$ 0,00">
+
+  <label>Produto 5:</label>
+  <input type="text" name="produtos[]" required placeholder="Nome do produto">
+  <label>Preço 5:</label>
+  <input type="number" name="precos[]" step="0.01" min="0" required placeholder="R$ 0,00">
+
+  <input type="submit" value="Mostrar em Ordem Crescente">
+</form>
+
+</body>
+</html>

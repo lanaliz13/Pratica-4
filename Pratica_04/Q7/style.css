@@ -1,0 +1,96 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #e0e0e0;
+  padding: 30px;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  color: #bb86fc;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  margin-bottom: 30px;
+}
+
+form label {
+  display: block;
+  margin-top: 20px;
+  font-weight: 500;
+  color: #ccc;
+}
+
+input[type="text"], input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 9999px;
+  background-color: #333;
+  color: #e0e0e0;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+input[type="text"]::placeholder,
+input[type="number"]::placeholder {
+  color: #777;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  outline: none;
+  background-color: #444;
+}
+
+input[type="submit"] {
+  margin-top: 30px;
+  width: 100%;
+  padding: 14px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #121212;
+  background-color: #bb86fc;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #9f6ef8;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+  margin-top: 40px;
+  justify-content: center;
+  list-style: none;
+}
+
+ul li {
+  background-color: #222;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-align: center;
+  color: #bb86fc;
+}
+
+ul li span:last-child {
+  margin-top: 6px;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #e0e0e0;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <title>Consolidação de IDs - Formulário</title>
+</head>
+<body>
+
+    <h2>Informe os IDs das duas fontes (separados por vírgula)</h2>
+
+    <form method="post" action="processar_ids.php">
+        <label for="idsFonteA">IDs Fonte A:</label><br>
+        <input type="text" id="idsFonteA" name="idsFonteA" placeholder="Ex: 101,105,102" size="30"><br><br>
+
+        <label for="idsFonteB">IDs Fonte B:</label><br>
+        <input type="text" id="idsFonteB" name="idsFonteB" placeholder="Ex: 103,101,106" size="30"><br><br>
+
+        <input type="submit" value="Consolidar IDs">
+    </form>
+
+</body>
+</html>

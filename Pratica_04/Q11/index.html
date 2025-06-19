@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <title>Monitoramento de Temperatura - Formulário</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <main>
+        <h2>Informe as temperaturas registradas (separadas por vírgula)</h2>
+
+        <form method="post" action="temperaturas.php">
+            <label for="temperaturas">Temperaturas (°C):</label>
+            <input type="text" id="temperaturas" name="temperaturas" placeholder="Ex: 21.5, 24.3, 19.8, 27.0" >
+            <input type="submit" value="Calcular Temperaturas">
+        </form>
+    </main>
+</body>
+</html>

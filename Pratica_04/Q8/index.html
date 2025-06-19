@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Jogo de Cartas</title>
+</head>
+<body>
+
+<h2>Informe as cartas do baralho</h2>
+
+<form action="embaralhar_cartas.php" method="post">
+    <label>Digite os nomes das cartas (um por campo):</label><br><br>
+
+    <input type="text" name="cartas[]" placeholder="Carta 1" required><br><br>
+    <input type="text" name="cartas[]" placeholder="Carta 2"><br><br>
+    <input type="text" name="cartas[]" placeholder="Carta 3"><br><br>
+    <input type="text" name="cartas[]" placeholder="Carta 4"><br><br>
+    <input type="text" name="cartas[]" placeholder="Carta 5"><br><br>
+
+    <button type="submit">Embaralhar Cartas</button>
+</form>
+
+</body>
+</html>

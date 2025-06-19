@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <title>Resultado da Média</title>
+</head>
+<body>
+
+    <h2>Resultado da Média das Despesas</h2>
+
+    <?php if ($media !== null): ?>
+        <p>A média de despesas é: <strong>R$ <?php echo number_format($media, 2, ',', '.'); ?></strong></p>
+    <?php else: ?>
+        <p><em>Nenhuma despesa válida foi informada.</em></p>
+    <?php endif; ?>
+
+    <a href="index.html">← Voltar</a>
+
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <title>Aumento de Preços - Formulário</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <main>
+        <h2>Informe os preços antigos (separados por vírgula)</h2>
+
+        <form method="post" action="processar_precos.php">
+            <label for="precosAntigos">Preços (R$):</label>
+            <input type="text" id="precosAntigos" name="precosAntigos" placeholder="Ex: 15.50, 22.00, 30.75, 8.99">
+            <input type="submit" value="Calcular Aumento">
+        </form>
+    </main>
+</body>
+</html>
